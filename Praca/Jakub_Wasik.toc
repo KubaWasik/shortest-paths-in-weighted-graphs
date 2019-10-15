@@ -1,0 +1,31 @@
+\contentsline {chapter}{Wst\IeC {\k e}p}{5}{chapter*.2}% 
+\contentsline {chapter}{\numberline {1}Podstawy teorii graf\IeC {\'o}w}{7}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Poj\IeC {\k e}cie grafu}{7}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Reprezentacja graf\IeC {\'o}w w komputerze}{14}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Podstawowe algorytmy badania graf\IeC {\'o}w}{16}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Problem najkr\IeC {\'o}tszych \IeC {\'s}cie\IeC {\.z}ek w grafie wa\IeC {\.z}onym}{17}{section.1.4}% 
+\contentsline {chapter}{\numberline {2}Om\IeC {\'o}wienie wybranych algorytm\IeC {\'o}w}{19}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Algorytmy wyznaczaj\IeC {\k a}ce \IeC {\'s}cie\IeC {\.z}ki z jednego \IeC {\'z}r\IeC {\'o}d\IeC {\l }a}{19}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Algorytm Dijkstry}{19}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Algorytm Bellmana-Forda}{23}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}Algorytmy wyznaczaj\IeC {\k a}ce \IeC {\'s}cie\IeC {\.z}ki mi\IeC {\k e}dzy wszystkimi wierzcho\IeC {\l }kami}{26}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Wyznaczanie najkr\IeC {\'o}tszych \IeC {\'s}cie\IeC {\.z}ek a mno\IeC {\.z}enie macierzy - algorytm z iloczynem odleg\IeC {\l }o\IeC {\'s}ci}{27}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Algorytm Floyda-Warshalla}{32}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Algorytm Johnsona}{36}{subsection.2.2.3}% 
+\contentsline {chapter}{\numberline {3}Implementacja wybranych algorytm\IeC {\'o}w w j\IeC {\k e}zyku Python}{43}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Algorytm Dijkstry}{45}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Algorytm Bellmana-Forda}{48}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Algorytm z iloczynem odleg\IeC {\l }o\IeC {\'s}ci}{50}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Algorytm Floyda-Warshalla}{52}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Algorytm Johnsona}{54}{section.3.5}% 
+\contentsline {chapter}{\numberline {4}Z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}\IeC {\'c} i por\IeC {\'o}wnanie algorytm\IeC {\'o}w}{57}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}ci algorytm\IeC {\'o}w}{57}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Najkr\IeC {\'o}tsze \IeC {\'s}cie\IeC {\.z}ki z jednym \IeC {\'z}r\IeC {\'o}d\IeC {\l }em}{58}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Najkr\IeC {\'o}tsze \IeC {\'s}cie\IeC {\.z}ki mi\IeC {\k e}dzy wszystkimi parami wierzcho\IeC {\l }k\IeC {\'o}w}{62}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}Dalsze por\IeC {\'o}wnania czas\IeC {\'o}w dzia\IeC {\l }ania algorytm\IeC {\'o}w}{65}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Podsumowanie}{72}{section.4.3}% 
+\contentsline {chapter}{Zako\IeC {\'n}czenie}{75}{chapter*.68}% 
+\contentsline {chapter}{\hbox to\@tempdima {6\hfil }Dodatki}{77}{appendix*.69}% 
+\contentsline {section}{\numberline {A}Elementy z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}ci obliczeniowej i notacja asymptotyczna}{77}{section.Alph0.1}% 
+\contentsline {section}{\numberline {B}Wybrane kody \IeC {\'z}r\IeC {\'o}d\IeC {\l }owe}{79}{section.Alph0.2}% 
+\contentsline {chapter}{Literatura}{87}{appendix*.70}% 
