@@ -1,0 +1,60 @@
+import matplotlib.pyplot as plt
+from plots.make_plot import make_plot
+
+
+print("Poszukiwanie definicji grafu gęstego\nDla 10 wierzchołków")
+make_plot("../generated_graphs/const_10_vertices_edges_0_20.graph", "floyd_warshall", 100, "g", count_edges=True, use_polyfit=True)
+print("wykres << Floyd-Warshall")
+make_plot("../generated_graphs/const_10_vertices_edges_0_20.graph", "johnson", 100, "b", count_edges=True, use_polyfit=True)
+print("wykres << Johnson")
+
+plt.xlabel("liczba krawędzi")
+plt.ylabel("czas (s)")
+plt.grid()
+plt.savefig(fname="pdf_files/Wykres_granica_gęstego_grafu_10_wierzchołków.pdf", dpi=300, quality=100, format="pdf")
+plt.close()
+print("Wykres został zapisany do pliku \"Wykres_granica_gęstego_grafu_10_wierzchołków.pdf\"")
+print("-" * 50)
+
+print("Dla 50 wierzchołków")
+make_plot("../generated_graphs/const_50_vertices_edges_0_250.graph", "floyd_warshall", 30, "g", count_edges=True, use_polyfit=True)
+print("wykres << Floyd-Warshall")
+make_plot("../generated_graphs/const_50_vertices_edges_0_250.graph", "johnson", 30, "b", count_edges=True, use_polyfit=True)
+print("wykres << Johnson")
+
+plt.xlabel("liczba krawędzi")
+plt.ylabel("czas (s)")
+plt.grid()
+plt.savefig(fname="pdf_files/Wykres_granica_gęstego_grafu_50_wierzchołków.pdf", dpi=300, quality=100, format="pdf")
+plt.close()
+print("Wykres został zapisany do pliku \"Wykres_granica_gęstego_grafu_50_wierzchołków.pdf\"")
+print("-" * 50)
+
+print("Dla 100 wierzchołków")
+make_plot("../generated_graphs/const_100_vertices_edges_0_1000.graph", "floyd_warshall", 20, "g", count_edges=True, use_polyfit=True)
+print("wykres << Floyd-Warshall")
+make_plot("../generated_graphs/const_100_vertices_edges_0_1000.graph", "johnson", 20, "b", count_edges=True, use_polyfit=True)
+print("wykres << Johnson")
+
+plt.xlabel("liczba krawędzi")
+plt.ylabel("czas (s)")
+plt.grid()
+plt.savefig(fname="pdf_files/Wykres_granica_gęstego_grafu_100_wierzchołków.pdf", dpi=300, quality=100, format="pdf")
+plt.close()
+print("Wykres został zapisany do pliku \"Wykres_granica_gęstego_grafu_100_wierzchołków.pdf\"")
+print("-" * 50)
+
+print("Dla 150 wierzchołków")
+make_plot("../generated_graphs/const_150_vertices_edges_0_2250.graph", "floyd_warshall", 20, "g", count_edges=True, use_polyfit=True)
+print("wykres << Floyd-Warshall")
+make_plot("../generated_graphs/const_150_vertices_edges_0_2250.graph", "johnson", 20, "b", count_edges=True, use_polyfit=True)
+print("wykres << Johnson")
+
+plt.xlabel("liczba krawędzi")
+plt.ylabel("czas (s)")
+plt.grid()
+plt.savefig(fname="pdf_files/Wykres_granica_gęstego_grafu_150_wierzchołków.pdf", dpi=300, quality=100, format="pdf")
+plt.close()
+print("Wykres został zapisany do pliku \"Wykres_granica_gęstego_grafu_150_wierzchołków.pdf\"")
+print("-" * 50)
+print("koniec")
